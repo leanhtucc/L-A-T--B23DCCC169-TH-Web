@@ -1,4 +1,6 @@
-﻿export default [
+﻿
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -36,20 +38,26 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/todolist',
+		name: 'Todolist',
+		component: "./TodoList",
+		icon: 'CheckSquareOutlined',
+	},
 
 	// DANH MUC HE THONG
-	// {
-	// 	name: 'DanhMuc',
-	// 	path: '/danh-muc',
-	// 	icon: 'copy',
-	// 	routes: [
-	// 		{
-	// 			name: 'ChucVu',
-	// 			path: 'chuc-vu',
-	// 			component: './DanhMuc/ChucVu',
-	// 		},
-	// 	],
-	// },
+	{
+		name: 'DanhMuc',
+		path: '/danh-muc',
+		icon: 'copy',
+		routes: [
+			{
+				name: 'ChucVu',
+				path: 'chuc-vu',
+				component: './DanhMuc/ChucVu',
+			},
+		],
+	},
 
 	{
 		path: '/notification',
