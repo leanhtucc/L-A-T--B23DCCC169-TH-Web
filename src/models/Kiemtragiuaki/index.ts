@@ -86,7 +86,7 @@ export default function useRoomManagerModel() {
             // tạo mới phòng
             const newRoom = {
                 ...values,
-                id: `P${Date.now()}`.slice(0, 10), // Limit the ID to 10 characters
+                id: `P${Date.now()}`.slice(0, 10),
                 numberOfSeat: Number(values.numberOfSeat),
             };
             setRooms([...rooms, newRoom]);
