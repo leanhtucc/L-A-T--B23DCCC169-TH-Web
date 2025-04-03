@@ -11,7 +11,6 @@ interface TodoItemProps {
     onUpdate: (id: number, title: string, description: string) => void;
     onDelete: (id: number) => void;
 }
-
 const TodoItem = ({ todo, onToggle, onUpdate, onDelete }: TodoItemProps) => {
     return (
         <Card hoverable className={`todo-item-card ${todo.completed ? "completed" : ""}`}>

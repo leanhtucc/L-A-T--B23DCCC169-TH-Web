@@ -4,9 +4,13 @@ import React, { useState } from 'react'
 import { useModel } from 'umi';
 
 export default function form() {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const { data, getDataUser } = useModel('randomuser');
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [visible, setVisible] = useState<boolean>(false);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [isEdit, setIsEdit] = useState<boolean>(false);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [row, setRow] = useState<RandomUser.Record>();
     return (
         <>

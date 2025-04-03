@@ -50,6 +50,7 @@ const TodoList = () => {
     return (
         <div style={{ maxWidth: '400px', margin: 'auto', padding: '20px' }}>
             <h2>Todo List</h2>
+
             <Space direction='vertical' style={{ width: '100%' }}>
                 <Input
                     placeholder='Enter todo....'

@@ -44,6 +44,19 @@ export default [
 		component: "./TodoList",
 		icon: 'CheckSquareOutlined',
 	},
+	// {
+	// 	path: "/ramdom-number",
+	// 	name: "RandomNumber",
+	// 	component: "./RandomNumber",
+	// 	icon: "NumberOutlined",
+	// },
+	{
+		path: "/kiem-tra-gia-ki",
+		name: "KiemTraGiaKi",
+		component: "./Kiemtragiuaki",
+		icon: "FileProtectOutlined",
+
+	},
 
 	// DANH MUC HE THONG
 	{
